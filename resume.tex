@@ -1,0 +1,234 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Travis} % Your first name
+\familyname{Adams} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Seeking a co-op or internship starting Spring 2018}
+\address{}{Cartersville, Georgia}
+\mobile{(470) 505 4442}
+%\phone{(000) 111 1112}
+%\fax{(000) 111 1113}
+% \email{tadams62@gatech.edu}
+\email{travistca@gmail.com}
+\homepage{linkedin.com/in/travis-adams-572497162/}{linkedin.com/in/travis-adams-572497162/}
+% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+% \homepage{github.com/travis-adams}{github.com/travis-adams}
+\extrainfo{\httplink{github.com/travis-adams}}
+%\photo[70pt][0.4pt]{picture} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{gaming}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Objective}
+
+% \textnormal{}{}{Computer science student passionate about applying CS to environmentalism and humanitarianism. Seeking a full-time software engineering position starting Summer 2021.}{}{}{}{}{}
+
+% \smallskip
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{August 2017--\\May 2021}{Georgia Institute of Technology}{}{Atlanta, GA}{}{
+\begin{itemize}
+\item Bachelor of Science in Computer Science
+\begin{itemize}
+\item \textit{Concentrations: Intelligence, Modeling and Simulation}
+\end{itemize}        
+\item Minor in Earth and Atmospheric Sciences
+\begin{itemize}
+\item \textit{Concentration: Environmental Science}
+\end{itemize} 
+\item GPA: 3.85/4.0
+\end{itemize}}
+
+\smallskip
+
+\cventry{August 2015--\\May 2017}{Kennesaw State University}{}{Kennesaw, GA}{}{
+\begin{itemize}
+\item Dual Enrollment Honors Program -- junior and senior years of high school
+\item GPA: 4.0/4.0
+\end{itemize}}
+
+\smallskip
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{Spring 2019,\\ Fall 2019,\\ Sum 2020,\\ Spring 2021}{Software Engineering Student Co-op}{Georgia Tech Research Institute}{Atlanta, GA}{}{
+\begin{itemize}
+\item Across four work terms, made full-stack contributions to a web application in an Agile Scrum environment
+\item Primarily developed in a TypeScript/JavaScript front-end and a Java back-end
+\item Occasionally created and modified tables in an Oracle database
+\item Gained forward-facing experience by demoing code changes live to a client
+\item Conducted research for project initiatives, contributing to the product owner's acceptance criteria
+% --- VERSION 2 ---
+% \item Across four work terms, made full-stack contributions to a web application in an Agile Scrum environment
+% \item Primarily developed in a TypeScript/JavaScript front-end and a Java back-end
+% \item Occasionally created and modified tables in an Oracle database using SQL Plus and SQL Developer
+% \item Utilized Git, Jira, Bitbucket, Confluence, and Slack to track work, review others' work, and communicate with teammates
+% --- VERSION 3 ---
+% \item Developed enhancements and resolved defects in a web application in two-week sprint iterations
+% \item Participated in daily stand-up meetings
+% \item Gained forward-facing experience by demoing code changes live to a client
+% \item Conducted research for project initiatives, contributing to the product owner's acceptance criteria
+% \item Utilized Jira, Bitbucket, Confluence, and Slack to track work, review others' work, and communicate with teammates
+\end{itemize}}
+
+\smallskip
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{\textbf{Languages}}{JavaScript, TypeScript, Java, Python, SQL, C}
+\cvitem{\textbf{Libraries}}{React, Material-UI}
+\cvitem{\textbf{Tools}}{Git, Jira, Bitbucket, \LaTeX}
+\cvitem{\textbf{OSs}}{Windows, Linux (RHEL)}
+
+\smallskip
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{2020}{Neighborhood Pulse Application}{Capital One}{}{}{
+\begin{itemize}
+\item Alongside four other Georgia Tech students, designed and built a web application that finds and displays nearby events, used by Capital One employees to facilitate customer engagement
+\item Led development of the application's front-end in TypeScript, also employing React, Material-UI, and the Google Maps API
+\end{itemize}}
+
+\smallskip
+
+%----------------------------------------------------------------------------------------
+%	Relevant Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Relevant Coursework}
+
+% \cvitem{Present}{CS 4641 - Machine Learning}
+% \cvitem{Present}{CS 3510 - Design and Analysis of Algorithms}
+% \cvitem{Summer 2019}{CS 4476 - Intro to Computer Vision}
+% \cvitem{Summer 2019}{CS 3600 - Intro to Artificial Intelligence}
+% \cvitem{Fall 2018}{CS 1332 - Data Structures and Algorithms}
+%\cvitem{Advanced}{}
+
+% \smallskip
+
+%----------------------------------------------------------------------------------------
+%	HONORS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Honors}
+
+\cventry{Fall 2017, Spring 2020, Fall 2020, Spring 2021}{Faculty Honors}{Georgia Institute of Technology}{Atlanta, GA}{}{}
+
+\smallskip
+
+% \cventry{Fall 2015-\\Spring 2017}{President's List}{Kennesaw State University}{Kennesaw, GA}{}{}
+
+% \smallskip
+
+\cventry{2012}{Eagle Scout}{Boy Scouts of America}{}{}{}
+
+
+\smallskip
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+%\bigskip
+
+%\section{Interests}
+
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+%\cvlistdoubleitem{\textit{Let's Try This!}, Georgia Tech's improvisational comedy troupe}{}
+%\cvlistdoubleitem{Piano and ukulele}{}
+%\cvlistdoubleitem{Camping and hiking}{}
+
+%\begin{itemize}
+%\setlength{\itemindent}{1in}
+%\item \textit{Let's Try This!}: Georgia Tech's improvisational comedy troupe
+%\item Programming, piano, ukulele, hiking
+%\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+% \clearpage
+
+% \recipient{NextEra Energy Resources}{NextEra Energy\\700 Universe Blvd\\Juno Beach, FL 33408} % Letter recipient
+% \date{\today} % Letter date
+% \opening{Dear Hiring Manager,} % Opening greeting
+% \closing{Sincerely,} % Closing phrase
+% % \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+% \makelettertitle % Print letter title
+
+% howdy
+
+% \makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
